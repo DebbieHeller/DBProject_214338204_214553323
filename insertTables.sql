@@ -1,29 +1,29 @@
 -- Customers
-INSERT INTO Customers VALUES (1,'Alice','0501234567','Main St 1','2025-01-10');
-INSERT INTO Customers VALUES (2,'Bob','0509876543','Second St 5','2025-02-12');
-INSERT INTO Customers VALUES (3,'Carol','0505551234','Third St 9','2025-03-05');
-
--- Products
-INSERT INTO Products VALUES (1,'Baguette','Bread',5.00,'2024-12-01');
-INSERT INTO Products VALUES (2,'Croissant','Pastry',3.50,'2024-11-15');
-INSERT INTO Products VALUES (3,'Sourdough','Bread',6.00,'2024-12-20');
+INSERT INTO Customers VALUES (1, 'Avi', 'Cohen', '0501234567', 'avi@gmail.com', DATE '2023-01-01');
+INSERT INTO Customers VALUES (2, 'David', 'Levi', '0529876543', 'david@gmail.com', DATE '2023-02-14');
+INSERT INTO Customers VALUES (3, 'Moshe', 'Sharabi', '0541112222', 'moshe@gmail.com', DATE '2023-03-10');
 
 -- Employees
-INSERT INTO Employees VALUES (1,'David','Driver','0501112222','2024-10-01');
-INSERT INTO Employees VALUES (2,'Emma','Driver','0503334444','2024-11-15');
-INSERT INTO Employees VALUES (3,'Frank','Baker','0505556666','2024-09-20');
+INSERT INTO Employees VALUES (1, 'Yossi', 'Katz', 'Baker', DATE '2022-01-10');
+INSERT INTO Employees VALUES (2, 'Arik', 'Ben Harush', 'Cashier', DATE '2021-06-20');
+INSERT INTO Employees VALUES (3, 'Nir', 'Azoulay', 'Delivery', DATE '2023-05-01');
+
+-- Categories
+INSERT INTO Categories VALUES (1, 'Bread');
+INSERT INTO Categories VALUES (2, 'Cakes');
+INSERT INTO Categories VALUES (3, 'Pastries');
+
+-- Products
+INSERT INTO Products VALUES (1, 'Baguette', 1, 12.00, 'Y');
+INSERT INTO Products VALUES (2, 'Chocolate Cake', 2, 45.00, 'Y');
+INSERT INTO Products VALUES (3, 'Croissant', 3, 9.00, 'Y');
 
 -- Orders
-INSERT INTO Orders VALUES (1,1,'2025-11-20','2025-11-21',15.50);
-INSERT INTO Orders VALUES (2,2,'2025-11-21','2025-11-22',9.50);
-INSERT INTO Orders VALUES (3,3,'2025-11-22','2025-11-23',11.00);
+INSERT INTO Orders VALUES (1, 1, 1, DATE '2023-10-10', 'Preparing');
+INSERT INTO Orders VALUES (2, 2, 2, DATE '2023-10-11', 'Completed');
+INSERT INTO Orders VALUES (3, 3, 3, DATE '2023-10-12', 'New');
 
 -- OrderItems
-INSERT INTO OrderItems VALUES (1,1,2);
-INSERT INTO OrderItems VALUES (1,2,1);
-INSERT INTO OrderItems VALUES (2,2,2);
-
--- Deliveries
-INSERT INTO Deliveries VALUES (1,1,1,'Main St 1','2025-11-21','Delivered');
-INSERT INTO Deliveries VALUES (2,2,2,'Second St 5','2025-11-22','Pending');
-INSERT INTO Deliveries VALUES (3,3,1,'Third St 9','2025-11-23','Pending');
+INSERT INTO OrderItems VALUES (1, 1, 2, 12.00);
+INSERT INTO OrderItems VALUES (1, 3, 4, 9.00);
+INSERT INTO OrderItems VALUES (2, 2, 1, 45.00);
