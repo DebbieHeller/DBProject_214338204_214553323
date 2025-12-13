@@ -1,0 +1,202 @@
+
+ProductID,ProductName,CategoryID,Price,IsAvailable
+1,Strawberry Fruit Spread,77,3.59,false
+2,Travel Pillow,85,22.99,false
+3,Electric Hot Pot,43,49.99,false
+4,Hummus Variety Pack,34,5.99,true
+5,Smart Plug,58,19.99,true
+6,Electric Can Opener,54,29.99,false
+7,Chic Jumpsuit,64,89.99,true
+8,Sour Cream,36,3.49,true
+9,Folding Exercise Bike,56,199.99,false
+10,Spicy Avocado Salsa,73,4.49,false
+11,Whole Wheat Pita Bread,57,2.79,false
+12,Cranberry Pecan Granola,4,3.99,false
+13,Andouille Sausage,18,5.49,false
+14,Diced Tomatoes (canned),54,1.49,true
+15,Outdoor Portable Fire Pit,25,149.99,false
+16,Decorative Throw Blanket,39,39.99,true
+17,Tailored Dress Pants,32,79.99,false
+18,Decorative LED Neon Sign,15,45.99,true
+19,Wireless Music Receiver,3,19.99,true
+20,Mango Chutney,64,3.99,true
+21,Balsamic Salad Dressing,60,2.99,true
+22,Travel Eye Mask with Ear Plugs,84,15.99,false
+23,Ginger Turmeric Shots,22,3.99,true
+24,Tomato Basil Soup,2,3.49,false
+25,Emergency Preparedness Kit,26,99.99,true
+26,Tomato Paste,39,1.29,false
+27,Self-Stirring Mug,100,19.99,true
+28,Wireless Charger Stand,89,24.99,false
+29,Organic Granola Cereal,12,5.99,false
+30,Board Game Storage,42,19.99,false
+31,Portable Electric Fan,62,24.99,false
+32,Foldable Yoga Mat,73,29.99,false
+33,Peas (frozen),97,1.89,false
+34,Deluxe First Aid Kit,52,39.99,false
+35,Fire Roasted Salsa,9,2.49,true
+36,Rice Pilaf Mix,87,2.59,false
+37,Cold Brew Coffee Maker,3,34.99,false
+38,Sriracha Chili Sauce,78,2.79,false
+39,Raspberry Vanilla Greek Yogurt,42,3.49,false
+40,Asian Noodle Salad Kit,55,4.99,false
+41,Black Bean Soup,86,3.49,false
+42,Yoga Mat,92,25,true
+43,Kids' Art Supplies Kit,53,29.99,false
+44,Fitness Smartwatch,10,99.99,false
+45,Cushion Covers,66,35,true
+46,Outdoor Adventure Kit,61,89.99,true
+47,Rustic Wooden Picture Frame,96,19.99,false
+48,Foot Massager,41,79.99,true
+49,Adjustable Kneeling Pad,9,18.99,true
+50,Wall Calendar,55,17.99,false
+51,Smart LED Light Strip,99,29.99,true
+52,Thai Peanut Noodles,2,4.99,true
+53,Chocolate Coconut Granola,98,3.79,false
+54,Artisan Flatbreads,48,2.99,false
+55,Chicken Salad Kit,36,5.99,false
+56,Feta Cheese,49,4.99,true
+57,Mixed Nuts,100,5.99,true
+58,Coconut Macaroons,56,4.99,true
+59,Thai Peanut Dressing,70,3.29,true
+60,Toasted Coconut Granola,79,4.99,true
+61,Portable Laptop Table,69,39.99,false
+62,Spicy Thai Coconut Soup,20,3.99,false
+63,Kids' Science Experiment Kit,34,29.99,true
+64,Kids' Dinosaur-Themed Lunchbox,37,19.99,false
+65,Rechargeable Laptop Battery Pack,31,49.99,false
+66,Cranberry Pecan Granola,47,3.99,false
+67,Compact Pop-Up Tent,53,69.99,false
+68,Mayonnaise,79,3.29,false
+69,Red Lentils,21,1.99,false
+70,Adjustable Pedicure Footrest,2,39.99,true
+71,Strawberry Fruit Spread,93,3.59,false
+72,Magnetic Screen Door,60,24.99,true
+73,Spiced Pumpkin Soup,74,3.99,true
+74,Gardening Kneeler and Seat,28,39.99,false
+75,Kids' Dinosaur-Themed Lunchbox,27,19.99,false
+76,Mixed Nuts,11,5.99,true
+77,Steak Seasoning Rub,63,2.49,true
+78,Digital Food Thermometer,89,19.99,false
+79,DIY Organic Gardening Kit,56,39.99,false
+80,A-Line Skirt,60,35.99,false
+81,Tennis Racket,64,89.99,false
+82,Premium Flashlight,8,19.99,true
+83,Electric Pressure Cooker,54,89.99,true
+84,Kale Chips,86,3.99,false
+85,Stainless Steel Water Pitcher,3,39.99,true
+86,Gingerbread House Kit,12,6.99,false
+87,Classic Beef Chili,74,7.99,false
+88,Carrot Sticks,51,2.49,false
+89,Almond Milk Yogurt,29,1.99,false
+90,Classic Pesto Sauce,89,4.29,false
+91,Kids' Outdoor Explorer Kit,5,24.99,false
+92,Kids' Gardening Kit,22,24.99,true
+93,Apple Cinnamon Instant Oatmeal,59,3.49,false
+94,Vegan Caesar Dressing,19,3.99,false
+95,Portable Solar Phone Charger,74,29.99,false
+96,Cranberry Citrus Sauce,88,3.99,false
+97,Chicken Breasts,88,9.99,true
+98,Reversible Comforter Set,4,89.99,false
+99,Pineapple Chunks (canned),44,2.29,true
+100,Roasted Garlic Mashed Potatoes,5,3.99,true
+101,Wrap Jumpsuit,52,54.99,true
+102,Almond Joy Snack Bars,85,2.99,true
+103,Lemon Herb Grilled Chicken,45,9.99,true
+104,Apple Cinnamon Breakfast Muffins,18,3.49,false
+105,Portable Hammock,66,27.99,true
+106,Luxury Bath Robe,96,49.99,true
+107,Sour Cream,90,3.49,true
+108,Glass Water Bottle,59,25.99,false
+109,Cheddar & Bacon Potato Skins,61,7.49,false
+110,Craft Beer Mustard,30,3.99,false
+111,Organic Green Apples,61,1.49,true
+112,Garlic Herb Seasoning,97,1.99,true
+113,Yoga Blocks,78,29.99,true
+114,Sliced Avocado,86,2.79,false
+115,Portable Bluetooth Speaker,25,49.99,false
+116,Pineapple Coconut Yogurt,57,4.49,true
+117,Warm Wool Sweater,57,59.99,true
+118,Italian Herbal Seasoning,9,1.99,true
+119,Kitchen Knife Sharpening System,25,39.99,true
+120,Chic Ankle Strap Heels,19,69.99,false
+121,Electric Rice Cooker,74,39.99,true
+122,BBQ Sauce,14,3.49,false
+123,Chilli Lime Corn on the Cob,6,1.99,true
+124,Measuring Cups Set,46,19.99,true
+125,Magnetic Screen Door,11,24.99,false
+126,Coconut Chips,84,3.59,false
+127,Sea Salt Caramel Brownie,44,2.49,false
+128,Children's Gardening Set,99,19.99,true
+129,Mediterranean Chickpea Salad,60,5.99,false
+130,Chocolate Hazelnut Granola,29,4.49,true
+131,Lightweight Rain Jacket,41,79.99,false
+132,Peanut Butter Chocolate Chip Bars,69,4.59,true
+133,Artisan Bread,58,4.59,true
+134,Classic Watch,44,99.99,false
+135,Canned Coconut Milk,72,1.89,true
+136,Chili Con Carne Mix,13,2.99,false
+137,Cinnamon Apple Sauce,21,2.49,true
+138,Chili Lime Shrimp,18,8.99,true
+139,LED Flashlight,31,19.99,false
+140,Eco-Friendly Beeswax Wraps,45,14.99,false
+141,Maple Pecan Granola,13,4.49,false
+142,Yoga Wheel,8,34.99,true
+143,Wall Planner,58,19.99,false
+144,Gluten-Free Brownies,44,4.99,false
+145,Pumpkin Spice Creamer,4,3.79,true
+146,Vegetarian Stir Fry Sauce,8,2.49,false
+147,Wireless Earbud Silicone Covers,95,9.99,false
+148,Vegetarian Sausage Links,1,5.89,false
+149,Two-Tone Windbreaker,92,59.99,false
+150,Magic Color-Changing Mug,73,14.99,false
+151,Chocolate Chip Cookie Dough,16,5.49,false
+152,Digital Drawing Tablet,68,79.99,false
+153,Ginger Turmeric Tea,81,3.49,true
+154,Travel Yoga Mat,34,34.99,true
+155,Electric Wax Warmer,85,22.99,true
+156,Educational STEM Kit,31,35.99,false
+157,Tailored Dress Pants,71,79.99,false
+158,Aeropress Coffee Maker,4,29.99,true
+159,Thyme,82,2.49,false
+160,Whole Chicken,5,12.99,true
+161,Travel Luggage Scale,77,14.99,false
+162,Dark Chocolate Bars,5,2.99,true
+163,Butternut Squash Ravioli,7,6.29,true
+164,Handmade Leather Journal,59,39.99,true
+165,Creamy Tomato Basil Soup,53,3.29,false
+166,Desk Lamp with USB Port,69,29.99,false
+167,Oven-Baked Chicken Tenders,41,6.99,false
+168,Wireless Printer,28,99.99,true
+169,Microwave Popcorn Maker,79,19.99,true
+170,Himalayan Salt Grinder,95,4.99,true
+171,Breathable Face Mask Set,4,14.99,true
+172,Sesame Noodles,86,5.99,true
+173,Picnic Blanket,81,29.99,false
+174,Fishing Rod,99,49.99,false
+175,Lentils,12,2.99,false
+176,Pesto Pasta Sauce,45,3.99,true
+177,Pineapple Chunks (canned),1,2.29,true
+178,Roasted Red Pepper Sauce,1,3.29,true
+179,Chicken Broth,43,2.49,false
+180,Canned Black Beans,87,1.29,false
+181,Apple Sauce,20,2.19,true
+182,Pocket Blanket,1,24.99,true
+183,Organic Tomato Ketchup,12,3.49,true
+184,Mayonnaise,89,3.29,false
+185,Organic Honeycrisp Apples,77,1.99,true
+186,Whole Grain Cereal,16,3.49,true
+187,Indoor Grill,30,59.99,true
+188,Classic Pumps,63,64.99,false
+189,Ice Cream,33,5.99,false
+190,Trail Mix (Deluxe),26,4.59,true
+191,Watercolor Paint Set,18,19.99,false
+192,Maple Pecan Oatmeal Cookies,93,3.99,true
+193,Poppy Seed Dressing,8,3.49,false
+194,Wireless Charging Station,58,39.99,true
+195,LED Makeup Mirror,31,39.99,false
+196,Workstation Laptop Stand,44,49.99,true
+197,Mint Chocolate Chip Ice Cream,29,4.99,false
+198,Stuffed Bell Peppers,47,5.99,false
+199,Himalayan Pink Salt,59,1.99,true
+200,Portable Bluetooth Speaker,50,49.99,true
