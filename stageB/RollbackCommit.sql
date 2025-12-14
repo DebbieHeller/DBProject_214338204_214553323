@@ -1,45 +1,44 @@
+-- ========================================
+-- ROLLBACK - ביטול שינויים
+-- ========================================
 
--- ================================
--- דוגמה 1: ROLLBACK
--- ================================
+-- צעד 1: הצגת מצב המוצר לפני העדכון
+SELECT * FROM Products WHERE ProductID = 1;
 
+-- צעד 2: התחלת טרנזקציה
 BEGIN;
 
-UPDATE Products
-SET Price = Price * 1.1
-WHERE CategoryID = 1;
+-- צעד 3: עדכון מחיר המוצר
+UPDATE Products SET Price = 9999.99 WHERE ProductID = 1;
 
--- בדיקה אחרי העדכון
-SELECT ProductID, ProductName, Price
-FROM Products
-WHERE CategoryID = 1;
+-- צעד 4: הצגת מצב המוצר אחרי העדכון (בתוך הטרנזקציה)
+SELECT * FROM Products WHERE ProductID = 1;
 
+-- צעד 5: ביטול השינויים
 ROLLBACK;
 
--- בדיקה אחרי rollback
-SELECT ProductID, ProductName, Price
-FROM Products
-WHERE CategoryID = 1;
+-- צעד 6: הצגת מצב המוצר אחרי ROLLBACK (חזר למצב המקורי)
+SELECT * FROM Products WHERE ProductID = 1;
 
 
--- ================================
--- דוגמה 2: COMMIT
--- ================================
+-- ========================================
+-- COMMIT - שמירת שינויים
+-- ========================================
 
+-- צעד 1: הצגת מצב המוצר לפני העדכון
+SELECT * FROM Products WHERE ProductID = 2;
+
+-- צעד 2: התחלת טרנזקציה
 BEGIN;
 
-UPDATE Orders
-SET Status = 'Completed'
-WHERE OrderID = 1;
+-- צעד 3: עדכון מחיר המוצר
+UPDATE Products SET Price = 199.99 WHERE ProductID = 2;
 
--- בדיקה אחרי העדכון
-SELECT OrderID, Status
-FROM Orders
-WHERE OrderID = 1;
+-- צעד 4: הצגת מצב המוצר אחרי העדכון (בתוך הטרנזקציה)
+SELECT * FROM Products WHERE ProductID = 2;
 
+-- צעד 5: שמירת השינויים
 COMMIT;
 
--- בדיקה אחרי commit
-SELECT OrderID, Status
-FROM Orders
-WHERE OrderID = 1;
+-- צעד 6: הצגת מצב המוצר אחרי COMMIT (השינוי נשמר לצמיתות)
+SELECT * FROM Products WHERE ProductID = 2;
