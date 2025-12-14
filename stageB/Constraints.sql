@@ -1,0 +1,12 @@
+
+-- 1. NOT NULL
+ALTER TABLE Customers
+ALTER COLUMN Email SET NOT NULL;
+
+-- 2. CHECK
+ALTER TABLE Products
+ADD CONSTRAINT chk_price_positive CHECK (Price > 0);
+
+-- 3. DEFAULT
+ALTER TABLE Orders
+ALTER COLUMN Status SET DEFAULT 'Pending';

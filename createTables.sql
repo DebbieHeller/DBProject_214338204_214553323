@@ -1,31 +1,31 @@
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
-    FirstName VARCHAR2(40),
-    LastName VARCHAR2(40),
-    Phone VARCHAR2(20),
-    Email VARCHAR2(80),
+    FirstName VARCHAR(40),
+    LastName VARCHAR(40),
+    Phone VARCHAR(20),
+    Email VARCHAR(80),
     RegistrationDate DATE
 );
 
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
-    FirstName VARCHAR2(40),
-    LastName VARCHAR2(40),
-    Role VARCHAR2(40),
+    FirstName VARCHAR(40),
+    LastName VARCHAR(40),
+    Role VARCHAR(40),
     HireDate DATE
 );
 
 CREATE TABLE Categories (
     CategoryID INT PRIMARY KEY,
-    CategoryName VARCHAR2(80)
+    CategoryName VARCHAR(80)
 );
 
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY,
-    ProductName VARCHAR2(80),
+    ProductName VARCHAR(80),
     CategoryID INT,
     Price NUMERIC(10,2),
-    IsAvailable VARCHAR2(1),
+    IsAvailable VARCHAR(1),
     FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
 );
 
@@ -34,7 +34,7 @@ CREATE TABLE Orders (
     CustomerID INT,
     EmployeeID INT,
     OrderDate DATE,
-    Status VARCHAR2(30),
+    Status VARCHAR(30),
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
     FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
 );
