@@ -98,4 +98,10 @@ CREATE TABLE EmployeeShifts (
     FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID),
     FOREIGN KEY (BranchID) REFERENCES Branches(BranchID)
 );
+CREATE TABLE branchfeedback (
+    id SERIAL PRIMARY KEY,
+    date_fb_br DATE,
+    rating INT CHECK (rating >= 1 AND rating <= 5),
+    branch_id INT REFERENCES branches(branchid)
+);
 

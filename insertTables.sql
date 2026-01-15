@@ -76,3 +76,7 @@ INSERT INTO EmployeeShifts (EmployeeID, BranchID, ShiftDate, StartTime, EndTime)
 (3, 1, '2024-01-15', '14:00:00', '22:00:00'),
 (4, 3, '2024-01-15', '07:00:00', '15:00:00'),
 (5, 4, '2024-01-16', '12:00:00', '20:00:00');
+
+INSERT INTO branchfeedback (date_fb_br, rating, branch_id) VALUES
+('2026-01-10', 5, 1),
+('2026-01-11', 4, 2);
